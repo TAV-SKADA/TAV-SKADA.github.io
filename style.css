@@ -18,6 +18,8 @@ body {
 
 header {
     background-color: #fb4f14;
+    user-scalable: no; /* Disable zooming on this element */
+}
     color: white;
     padding: 10px 0;
 }
