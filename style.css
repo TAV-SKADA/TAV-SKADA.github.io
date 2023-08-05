@@ -42,18 +42,33 @@ nav a {
 /* ... (previous styles) ... */
 /* ... (previous styles) ... */
 
-/* Styling for footer and copyright */
+/* ... (previous styles) ... */
+
+/* Copyright and links */
 .footer {
-    background-color:   #808080;
+    background-color: #333;
     color: #fff;
     text-align: center;
-    padding: 20px 0;
+    padding: 10px 0;
 }
 
 .footer p {
-    font-size: 0.9rem;
+    font-size: 0.8rem;
     margin: 0;
 }
+
+.footer a {
+    color: #ff6600; /* Orange link color */
+    text-decoration: none;
+    transition: color 0.3s ease-in-out;
+}
+
+.footer a:hover {
+    color: #fff; /* Change link color on hover */
+}
+
+/* ... (remaining styles) ... */
+
 
 /* ... (remaining styles) ... */
 
@@ -116,6 +131,31 @@ nav a {
     font-size: 0.8rem;
     margin: 0;
 }
+/* ... (previous styles) ... */
+
+/* Adjustments for smartphones */
+@media screen and (max-width: 768px) {
+    /* Header */
+    header {
+        padding: 10px 0;
+    }
+
+    .logo img {
+        width: 50px; /* Adjust the width as needed */
+    }
+
+    .logo h1 {
+        font-size: 1.2rem;
+        margin-top: 5px;
+    }
+
+    .logo p {
+        font-size: 0.8rem;
+    }
+
+    /* ... (other smartphone adjustments) ... */
+}
+
 
 /* Running text (marquee) */
 .running-text {
@@ -141,7 +181,7 @@ nav a {
 .home-section {
     position: relative; /* Required for overlay */
     background-image: url('background.jpg'); /* Replace with your image path */
-    padding: 30px 0;
+    padding: 100px 0;
     background-size: cover;
     background-position: center;
     color: white;
@@ -249,6 +289,29 @@ nav a {
     max-width: 600px;
     margin-bottom: 1.5rem;
 }
+/* ... (previous styles) ... */
+
+/* Adjustments for smartphones */
+@media screen and (max-width: 768px) {
+    /* ... (previous smartphone adjustments) ... */
+
+    /* Blog post */
+    .blog-post {
+        padding: 15px;
+    }
+
+    .blog-post h3 {
+        font-size: 1.3rem;
+        margin-bottom: 8px;
+    }
+
+    .blog-post p {
+        font-size: 0.85rem;
+    }
+
+    /* ... (more adjustments if needed) ... */
+}
+
 
 /* ... (previous styles) ... */
 
