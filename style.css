@@ -7,7 +7,14 @@ body, h1, h2, h3, p {
 /* Basic styling */
 body {
     font-family: Arial, sans-serif;
+    touch-action: manipulation; /* Improve touch responsiveness */
 }
+/* Apply to specific elements if needed */
+.container {
+    user-scalable: no; /* Disable zooming on this element */
+}
+
+/* ... (remaining styles) ... */
 
 header {
     background-color: #fb4f14;
