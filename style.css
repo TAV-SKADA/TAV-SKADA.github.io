@@ -173,7 +173,7 @@ nav a {
 .home-section {
     position: relative; /* Required for overlay */
     background-image: url('background.jpg'); /* Replace with your image path */
-    padding: 100px 0;
+    padding: 300px 0;
     background-size: cover;
     background-position: center;
     color: white;
