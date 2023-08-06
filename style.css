@@ -287,6 +287,8 @@ nav a {
 /* ... (previous styles) ... */
 /* ... (previous styles) ... */
 
+/* ... (previous styles) ... */
+
 /* Styling for blog section */
 .blog-section {
     text-align: center;
@@ -337,6 +339,8 @@ nav a {
     margin: 0 15px 15px;
     color: #555;
 }
+
+/* ... (remaining styles) ... */
 
 .read-more {
     display: inline-block;
