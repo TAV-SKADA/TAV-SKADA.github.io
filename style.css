@@ -8,18 +8,11 @@ body, h1, h2, h3, p {
 body {
     font-family: Arial, sans-serif;
     touch-action: manipulation; /* Improve touch responsiveness */
-}
-/* Apply to specific elements if needed */
-.container {
-    user-scalable: no; /* Disable zooming on this element */
-}
 
-/* ... (remaining styles) ... */
+}
 
 header {
     background-color: #fb4f14;
-    user-scalable: no; /* Disable zooming on this element */
-}
     color: white;
     padding: 10px 0;
 }
@@ -51,37 +44,27 @@ nav a {
 /* ... (previous styles) ... */
 /* ... (previous styles) ... */
 
-/* ... (previous styles) ... */
-
-/* Copyright and links */
+/* Styling for footer and copyright */
 .footer {
-    background-color: #333;
+    background-color:   #808080;
     color: #fff;
     text-align: center;
-    padding: 10px 0;
+    padding: 20px 0;
 }
 
 .footer p {
-    font-size: 0.8rem;
+    font-size: 0.9rem;
     margin: 0;
 }
 
-.footer a {
-    color: #ff6600; /* Orange link color */
-    text-decoration: none;
-    transition: color 0.3s ease-in-out;
-}
+/* ... (remaining styles) ... */
 
-.footer a:hover {
-    color: #fff; /* Change link color on hover */
+/* Apply to specific elements if needed */
+.container {
+    user-scalable: no; /* Disable zooming on this element */
 }
 
 /* ... (remaining styles) ... */
-
-
-/* ... (remaining styles) ... */
-
-
 
 /* ... (previous styles) ... */
 
@@ -190,7 +173,7 @@ nav a {
 .home-section {
     position: relative; /* Required for overlay */
     background-image: url('background.jpg'); /* Replace with your image path */
-    padding: 350px 0;
+    padding: 100px 0;
     background-size: cover;
     background-position: center;
     color: white;
@@ -298,29 +281,6 @@ nav a {
     max-width: 600px;
     margin-bottom: 1.5rem;
 }
-/* ... (previous styles) ... */
-
-/* Adjustments for smartphones */
-@media screen and (max-width: 768px) {
-    /* ... (previous smartphone adjustments) ... */
-
-    /* Blog post */
-    .blog-post {
-        padding: 15px;
-    }
-
-    .blog-post h3 {
-        font-size: 1.3rem;
-        margin-bottom: 8px;
-    }
-
-    .blog-post p {
-        font-size: 0.85rem;
-    }
-
-    /* ... (more adjustments if needed) ... */
-}
-
 
 /* ... (previous styles) ... */
 
@@ -330,8 +290,12 @@ nav a {
 /* Styling for blog section */
 .blog-section {
     text-align: center;
-    padding: 80px 0;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    transition: transform 0.3s ease-in-out;
 }
+
 
 .blog-section h2 {
     font-size: 2.5rem;
@@ -360,15 +324,9 @@ nav a {
     transform: translateY(-5px);
 }
 
-.blog-box img {
-    width: 100%;
-    height: auto;
-    border-radius: 10px 10px 0 0;
-}
-
 .blog-box h3 {
-    font-size: 1.5rem;
-    margin: 15px;
+    font-size: 1.4rem;
+    margin-bottom: 10px;
     color: #333;
 }
 
@@ -377,6 +335,42 @@ nav a {
     margin: 0 15px 15px;
     color: #555;
 }
+.blog-post p {
+    font-size: 0.9rem;
+    color: #666;
+    margin-bottom: 15px;
+}
+
+.read-more {
+    display: inline-block;
+    padding: 5px 10px;
+    background-color: #ff6600;
+    color: #fff;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.read-more:hover {
+    background-color: #ff5500;
+}
+
+/* Hover effect for the blog post */
+.blog-post:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+}
+
+/* Adjustments for smartphones */
+@media screen and (max-width: 768px) {
+    .blog-post {
+        padding: 15px;
+    }
+}
+
+/* ... (previous styles) ... */
+
+
 
 /* ... (remaining styles) ... */
 /* ... (previous styles) ... */
@@ -512,6 +506,70 @@ nav a {
 }
 
 
+/* ... (previous styles) ... */
+
+/* Adjustments for smartphones */
+@media screen and (max-width: 768px) {
+    /* Header */
+    header {
+        padding: 10px 0;
+    }
+
+    .logo img {
+        width: 60px;
+    }
+
+    .logo h1 {
+        font-size: 1.2rem;
+        margin-top: 5px;
+    }
+
+    .logo p {
+        font-size: 0.8rem;
+    }
+
+    /* Navigation menu */
+    .nav-link {
+        font-size: 0.9rem;
+        margin-right: 15px;
+    }
+
+    /* Sections */
+    .section h2 {
+        font-size: 1.6rem;
+        margin-bottom: 10px;
+    }
+
+    .section p {
+        font-size: 0.9rem;
+    }
+
+    /* Blog post */
+    .blog-post {
+        padding: 20px;
+    }
+
+    .blog-post h3 {
+        font-size: 1.4rem;
+        margin-bottom: 10px;
+    }
+
+    .blog-post p {
+        font-size: 0.9rem;
+    }
+
+    /* Contact form */
+    .contact-form input,
+    .contact-form textarea,
+    .contact-form button {
+        font-size: 0.9rem;
+    }
+
+    /* Footer */
+    .footer p {
+        font-size: 0.8rem;
+    }
+}
 
 
 /* ... (remaining styles) ... */
